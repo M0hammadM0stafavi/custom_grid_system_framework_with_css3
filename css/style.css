@@ -1,6 +1,18 @@
 @charset "UTF-8";
 @import "/css/css-reset.css";
 
+.red-color{
+  background-color: red;
+}
+
+.green-color{
+  background-color: green;
+}
+
+.yellow-color{
+  background-color: yellow;
+}
+
 .container-fluid{
   width: 100%;
 }
@@ -9,6 +21,14 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 
 @media only screen and (max-width: 576px) {
