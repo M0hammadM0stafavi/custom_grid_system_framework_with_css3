@@ -13,6 +13,10 @@
   background-color: yellow;
 }
 
+.gray-color{
+  background-color: #efefef;
+}
+
 .container-fluid{
   width: 100%;
 }
@@ -33,6 +37,7 @@
 
 [class ^= "col-"]{
   float: right;
+  padding: 0 15px;
 }
 
 @media only screen and (max-width: 576px) {
