@@ -25,7 +25,10 @@
   margin-top: 20px;
 }
 
-
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
 
 .container-fluid {
   width: 100%;
