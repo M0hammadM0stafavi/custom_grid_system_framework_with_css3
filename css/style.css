@@ -25,6 +25,10 @@
   margin-top: 20px;
 }
 
+.round-corner{
+  border-radius: 5px;
+}
+
 .img-responsive{
   width: 100%;
   height: auto;
