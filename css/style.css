@@ -31,6 +31,10 @@
   display: table;
 }
 
+[class ^= "col-"]{
+  float: right;
+}
+
 @media only screen and (max-width: 576px) {
   .col-xs-1 {
     width: 8.33%;
