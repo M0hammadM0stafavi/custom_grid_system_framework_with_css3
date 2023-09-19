@@ -10,3 +10,15 @@ ul.menu li {
   display: inline;
   padding: 15px;
 }
+
+.card{
+  border: 1px solid #efefef;
+  padding: 10px;
+  font-size: 14px;
+
+}
+
+.card-header{
+  border-bottom: 1px dashed #eee;
+  padding-bottom: 10px;
+}
