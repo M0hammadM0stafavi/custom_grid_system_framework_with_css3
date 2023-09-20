@@ -4,6 +4,7 @@
 
 nav {
   line-height: 50px;
+  color: #fff;
 }
 
 ul.menu li {
@@ -11,14 +12,27 @@ ul.menu li {
   padding: 15px;
 }
 
-.card{
+.card {
   border: 1px solid #efefef;
   padding: 10px;
   font-size: 14px;
-
 }
 
-.card-header h5{
+.card-header h5 {
   border-bottom: 1px dashed #eee;
   padding-bottom: 10px;
+}
+
+footer .card-header h5 {
+  border-bottom: 1px dashed #fff;
+  font-size: 15px;
+  width: 60%;
+}
+
+footer .card-body li {
+  color: yellow;
+}
+
+footer .card {
+  border: 0;
 }
