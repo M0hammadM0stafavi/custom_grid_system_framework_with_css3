@@ -18,7 +18,7 @@ ul.menu li {
 
 }
 
-.card-header{
+.card-header h5{
   border-bottom: 1px dashed #eee;
   padding-bottom: 10px;
 }
